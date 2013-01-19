@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     }
     
     if (argc != 1) {
-        fprintf(stderr, "usage: screeninfo\nprints all active display {origin, size} as an AppleScript list");
+        fprintf(stderr, "usage: screenarrangement\nprints all active display {origin, size} as an AppleScript list");
         return 2;
     }
     
